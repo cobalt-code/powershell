@@ -10,3 +10,10 @@ will get all members of this group and add the required posix attributes
 to the user-objects. Attributes of user-objects that have values wil left
 untouched. The script will start with the numerical RID of the user-object
 to search for a free uidNumber ( the searchRange is 250 ).
+
+2) Create-AutoFS-Maps.ps1
+
+this script is intended to create autofs-maps in active directory to be 
+served by sssd to autofs this script will provide so called indirect maps.
+The created maps must not be unique, so it is possible to create them in 
+different OUs to serve different locations.
