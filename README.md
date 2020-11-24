@@ -17,3 +17,14 @@ this script is intended to create autofs-maps in active directory to be
 served by sssd to autofs this script will provide so called indirect maps.
 The created maps must not be unique, so it is possible to create them in 
 different OUs to serve different locations.
+
+3) Split-VCF.ps1
+
+this script is intended to split multi enty VCF file as created by LotusNote
+into multiple single entry VCF files that can be used to import contacts to
+Miucrosoft Outlook.
+
+4) Split-VCF.bat
+
+this wrapper may be used to run Powershell script on a computer that requires
+signed powershell-scripts.
